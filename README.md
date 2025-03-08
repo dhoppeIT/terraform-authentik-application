@@ -15,7 +15,6 @@ module "authentik_provider_oauth2" {
   version = "1.0.0"
 
   name               = "example-provider-oauth2"
-  client_id          = "vke8qUguq8J8eCXJOR5UuOWbJfuob1PoGOH9oo0n"
   authorization_flow = "8dd2dda7-5624-4f42-8984-04139ce50236"
   invalidation_flow  = "742a8bb5-3981-44ab-949f-dada3e92daf9"
 }
